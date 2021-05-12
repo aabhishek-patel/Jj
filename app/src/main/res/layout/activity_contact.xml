@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/page_border"
+    android:orientation="vertical"
+    tools:context=".Drawer.ContactActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logo_jj"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/Contact_Us"
+                android:src="@drawable/final_logo" />
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="-20dp"
+                android:fontFamily="@font/bungee"
+                android:gravity="start"
+                android:text="@string/Contact_Us"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxname"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/name"
+                android:padding="13dp"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="13dp"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wno"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/wno"
+                android:padding="13dp"
+                android:inputType="number"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/street"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxhouseno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/street"
+                android:padding="13dp"
+                android:inputType="text"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:inputType="text"
+                android:id="@+id/cxaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/address"
+                android:padding="13dp"
+                android:textColorHint="@color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/district"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxdistric"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/district"
+                android:inputType="text"
+                android:padding="13dp"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/state"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxstate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/state"
+                android:inputType="text"
+                android:padding="13dp"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pincode"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxpincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/pincode"
+                android:padding="13dp"
+                android:inputType="number"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comment"
+                android:textColor="@color/golden"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/cxcomments"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:inputType="text"
+                android:background="@drawable/border"
+                android:hint="@string/comment"
+                android:padding="13dp"
+                android:textColorHint="@color/black" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient_style"
+                android:elevation="8dp"
+                android:fontFamily="@font/parnas"
+                android:text="@string/submit"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

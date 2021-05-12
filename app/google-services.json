@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "359647464396",
+    "firebase_url": "https://jagahjamin1.firebaseio.com",
+    "project_id": "jagahjamin1",
+    "storage_bucket": "jagahjamin1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359647464396:android:bce55aaf959dfaa232eb69",
+        "android_client_info": {
+          "package_name": "com.aabhishekpatel.adminjaganjameen_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359647464396-5cq6b0k340hak28amv5krvi5fvpuea0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aabhishekpatel.adminjaganjameen_1",
+            "certificate_hash": "cfe7243d68cdb7b2afc0a94af7508579b0132d0a"
+          }
+        },
+        {
+          "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIisBORvqDRsTMMfNkDjbh4JZK9ekQEUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359647464396:android:2e92fc0003e2b96932eb69",
+        "android_client_info": {
+          "package_name": "com.aabhishekpatel.jagahjameen_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359647464396-4nk6n5peegt968lraql0i8nmi8imqpc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aabhishekpatel.jagahjameen_2",
+            "certificate_hash": "cfe7243d68cdb7b2afc0a94af7508579b0132d0a"
+          }
+        },
+        {
+          "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIisBORvqDRsTMMfNkDjbh4JZK9ekQEUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359647464396:android:a452e884776e653632eb69",
+        "android_client_info": {
+          "package_name": "com.aabhishekpatel.jagahjamin_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359647464396-nsb512hnogbopu6l0789m53r164rh962.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aabhishekpatel.jagahjamin_1",
+            "certificate_hash": "cfe7243d68cdb7b2afc0a94af7508579b0132d0a"
+          }
+        },
+        {
+          "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIisBORvqDRsTMMfNkDjbh4JZK9ekQEUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359647464396:android:87c167638a17fe4032eb69",
+        "android_client_info": {
+          "package_name": "com.aabhishekpatel.jj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359647464396-pkt9hf2ctdpldjce07s9qu7eptiqji0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aabhishekpatel.jj",
+            "certificate_hash": "cfe7243d68cdb7b2afc0a94af7508579b0132d0a"
+          }
+        },
+        {
+          "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIisBORvqDRsTMMfNkDjbh4JZK9ekQEUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359647464396-23md3enokh0qr0ek6rt84rpfhm3truek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">जगह ज़मीन</string>
+    <string name="app_slogan">अपनी जमीन अपना मकान</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">नेविगेशन हेडर</string>
+    <string name="communicate">संचार करना</string>
+    <string name="share">शेयर</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="change_language">भाषा चुनें</string>
+    <string name="privacy_policies">गोपनीयता नीति</string>
+    <string name="privacy">जगह ज़मीन और ग्राहकों को बेस्ट मटेरियल के साथ बेचने और निर्माण के लिए ट्रस्ट। कई खरीद विकल्प यह तुलना और अद्वितीय बनाते हैं। यूआई केवल उपयोग करने के लिए निबंध के लिए डिजाइन है।
+                             जहां घर के दस्तावेजों को पहले से ही जांचा जाता है, साथ ही निर्माण पर वारंटी भी उपलब्ध है। निर्माण में नई ईंटें और उच्च-गुणवत्ता वाले काम उपलब्ध हैं, जिसमें आप सीधे जगाह यामीन या किसी अन्य निर्माण कंपनी से जुड़ सकते हैं । जगह आसान स्लाइड आपको बहुत सारे विकल्प देती है जहाँ हम तुलना कर सकते हैं और बुक कर सकते हैं।
+                             जगह ज़मीन अपने किसी भी उपयोगकर्ता के व्यक्तिगत डेटा के साथ कोई छेड़छाड़ नहीं है। न ही यह किसी भी प्रकार की कोई अन्य छिपी हुई शर्त रखता है , भविष्य में जगाह यामीन को बेहतर बनाने के लिए, कई नियमों और शर्तों और अनुप्रयोगों में परिवर्तन निर्धारित है।</string>
+
+    <string name="why_jj">क्यों जगह ज़मीन</string>
+    <string name="why_jj_text"> वास्तु शास्त्र, सिविल इंजीनियर, इलेक्ट्रिक इंजीनियर, आर्किटेक्ट, कलर साइकोलॉजी, इन्वेस्टमेंट एडवाइजर, जगाह जेमीन एप्लीकेशन में भी उपलब्ध हैं।
+                                जिसे भारत के नागरिकों के अनुसार बनाया गया है। इस एप्लिकेशन का उपयोग युवा या बूढ़े व्यक्ति द्वारा भी किया जा सकता है, इसलिए पूरे आवेदन को वन टच बुक के आधार पर बनाया गया है। जब आप एप्लिकेशन में स्लाइड करते हैं, तो आप चार श्रेणियों में जा सकते हैं, साथ ही साथ आप ऊपर या नीचे खिसक कर भूमि या घर बुक कर सकते हैं, उसी पृष्ठ पर आपको भूमि के बारे में सारी जानकारी मिलती है।
+                                ग्राहक डायरेक्ट व्हाट्सएप आइकन से भी व्हाट्सएप मैसेज कर सकते हैं या डायरेक्ट कॉल का विकल्प भी है। दिखाए गए सभी भूमि, घर या निर्माण खंड पहले से ही सत्यापित हैं।
+                                जिस प्रीमियम एप्लिकेशन में हम कोई विज्ञापन या कोई शुल्क नहीं लेते हैं, तो जगाह यामीन आवेदन अपने आप में एक अलग स्थान रखता है। ट्रस्ट बनाने के लिए, स्थान, भूमि और घर के सभी दस्तावेजों को जांच कर अपलोड किया जाता है। यहां हमारे निर्धारित समय पर भूमि पर जाने का विकल्प है, और भूमि, घर को देखने के बाद संतुष्ट हो जाएं।
+                                सही और अच्छी तस्वीरें उसी जगह से होती हैं, जिसे ग्राहक समझ सकता था।</string>
+    <string name="Land">जमीन</string>
+    <string name="Interior">खूबसूरत</string>
+    <string name="Houses">मकान</string>
+    <string name="Build">समान</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="Contact_Us">संपर्क करें</string>
+
+    <!--Tab name-->
+    <string name="tab_text_1">जमीन</string>
+    <string name="tab_text_2">मकान</string>
+    <string name="tab_text_3">खूबसूरत</string>
+    <string name="tab_text_4">समान</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">मुख्य गतिविधि</string>
+
+    <string name="open">खुला हुआ</string>
+    <string name="close">बंद करे</string>
+    <string name="dummy_button">डमी बटन</string>
+    <string name="dummy_content">डमी\nसामग्री</string>
+
+    <!--button-->
+    <string name="call">कॉल करें ।</string>
+    <string name="sharebtn">शेयर करें ।</string>
+    <string name="retry">पुन: प्रयास करें ।</string>
+
+    <!--alert Dailog-->
+    <string name="leaving_soon">इतनी जल्दी जा रहे...!!</string>
+    <string name="login_at">आपने लॉगिन नहीं किया है ...??</string>
+    <string name="sure_exit">क्या आपको यकीन है कि आप बाहर निकलना चहते हैं...</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="login">लॉग-इन करें</string>
+    <string name="stay">रुकना है</string>
+    <string name="welcome">जगह जमीन में आपका स्वागत हैं</string>
+
+
+    <!--OTP screen-->
+    <string name="otp_code_text">कोड</string>
+    <string name="resend">कोड प्राप्त नहीं हुआ</string>
+    <string name="Verify_Code">कोड सत्यापित करें</string>
+    <string name="otp_verification_text">सत्यापन</string>
+    <string name="otp_description_text">अपने दिए गए नंबर पर भेजे गए वन टाइम पासवर्ड को दर्ज करें</string>
+
+    <!--Phone password-->
+    <string name="phone">फ़ोन</string>
+    <string name="phone_no">फ़ोन नंबर</string>
+    <string name="otp">ओ.टी.पी. प्राप्त करें</string>
+    <string name="phone_desc">अपना देश कोड चुनकर अपना फ़ोन नंबर दर्ज करें...</string>
+
+    <!--Profile-->
+    <string name="name">नाम</string>
+    <string name="done">आगे बढ़ें</string>
+    <string name="name_profile">आपका नाम (सूचनाओं के लिए)</string>
+    <string name="name_hint">अपना नाम दर्ज करें और एक वैकल्पिक प्रोफ़ाइल चित्र जोड़ें</string>
+
+
+    <!--internet-->
+    <string name="oops">ओह !</string>
+    <string name="no_internet">कोई इंटरनेट कनेक्शन नहीं…</string>
+
+    <!--Contact Us-->
+    <string name="pname">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="wno">व्हाट्सएप्प नंबर</string>
+    <string name="street">हाउस नं। / स्ट्रीट</string>
+    <string name="address">पूरा पता</string>
+    <string name="district">जिला</string>
+    <string name="state">राज्य</string>
+    <string name="pincode">पिन कोड</string>
+    <string name="comment">टिप्पणियाँ / पूछताछ</string>
+    <string name="submit">सब्मिट</string>
+
+
+    <!--About Us-->
+    <string name="version">वर्ज़न 1.0.0</string>
+    <string name="advertise">हमारे साथ विज्ञापन करें ।</string>
+    <string name="connect">हमारे से जुड़िये ।</string>
+    <string name="gmail">जीमेल पर मेल करें ।</string>
+    <string name="link">हमारी वेबसाइट पर पधारें ।</string>
+    <string name="facebook">हमे फेसबूक पर पसंद करे ।</string>
+    <string name="twitter">ट्विटर पर हमें का फ़ॉलो करें ।</string>
+    <string name="youtube">हमें यूट्यूब पर देखें ।</string>
+    <string name="playstore">प्ले स्टोर पर हमें रेट करें ।</string>
+    <string name="instagram">हमें इंस्टाग्राम पर फॉलो करें ।</string>
+    <string name="whatsapp">हमें व्हाट्सएप पर टेक्स्ट करें ।</string>
+    <string name="github">GitHub पर डेवलपर से मिलें ।</string>
+    <string name="copyright">कॉपीराइट © २०२१, जगह ज़मीन ।</string>
+
+</resources>

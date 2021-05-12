@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_why_jj"
+            android:icon="@drawable/ic_why"
+            android:title="@string/why_jj" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/Contact_Us" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="@string/about_us" />
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_privacy"
+            android:title="@string/privacy_policies" />
+
+
+
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_short"
+                android:icon="@drawable/ic_sort"
+                android:title="short" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_change_language"
+                android:icon="@drawable/ic_translate"
+                android:title="@string/change_language" />
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_covid"
+                    android:icon="@drawable/ic_coronavirus"
+                    android:title="Covid-19" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="golden">#A9811D</color>
+    <color name="light_golden">#F8F5EF</color>
+    <color name="red">#861605</color>
+    <color name="purple">#7851a9</color>
+
+
+
+    <color name="brown">#795548</color>
+    <color name="drak_brown">#554911</color>
+    <color name="font">#7A7A7A</color>
+
+    <!-- colors for button style -->
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+    <!-- colors for tab and screent text -->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="TransparentWhite">#cccccc</color>
+    <color name="black">#000000</color>
+
+    <!--Green-->
+    <color name="green">#416F14</color>
+    <color name="lightgreen">#75DFCD</color>
+    <color name="whatsapp_green">#25D366</color>
+
+    <!--blue-->
+    <color name="blue">#0079C6</color>
+    <color name="background">#2a9df4</color>
+    <color name="transprency">#00000000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

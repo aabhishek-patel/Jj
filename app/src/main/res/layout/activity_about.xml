@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/page_border"
+    android:orientation="vertical"
+    tools:context=".Drawer.AboutActivity">
+
+    <LinearLayout
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo_jj"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/about_us"
+            android:src="@drawable/final_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/parnas"
+            android:text="@string/about_us"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="@string/version"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <TextView
+                android:id="@+id/advertise"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:text="@string/advertise"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+            <TextView
+                android:id="@+id/connect"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:text="@string/connect"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/gmail_image"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_gmail"/>
+                <TextView
+                    android:id="@+id/gmail_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:text="@string/gmail"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/link_image"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_link"/>
+                <TextView
+                    android:id="@+id/link_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:text="@string/link"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/fb_image"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_facebook"/>
+                <TextView
+                    android:id="@+id/fb_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:text="@string/facebook"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/twitter_image"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_twitter"/>
+                <TextView
+                    android:id="@+id/twitter_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:text="@string/twitter"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/youtube_image"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_youtube"/>
+                <TextView
+                    android:id="@+id/youtube_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:text="@string/youtube"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/store_image"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_playstore"/>
+                <TextView
+                    android:id="@+id/store_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:text="@string/playstore"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="25dp"
+                    android:id="@+id/instagram_image"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_instagram"/>
+                <TextView
+                    android:id="@+id/instagram_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:text="@string/instagram"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_width="25dp"
+                android:id="@+id/whatsapp_image"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_whatsapp"/>
+            <TextView
+                android:id="@+id/whatsapp_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:text="@string/whatsapp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_width="25dp"
+                android:id="@+id/github_image"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_github"/>
+            <TextView
+                android:id="@+id/github_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:text="@string/github"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/brown" />
+
+            <TextView
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

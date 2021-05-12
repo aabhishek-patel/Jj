@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Jagah Jameen</string>
+    <string name="app_slogan">Apni Jameen Apna Makan</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="change_language">Choose Language</string>
+    <string name="privacy_policies">Privacy Policy</string>
+    <string name="privacy">Trust behind Jagah jameen and customers to Sell and Construct with Best Materials. multiple Buying option make it Comparable and unique . UI is simply design to essay to use.
+                            Where the documents of the house are already checked, as well as the warranty on the construction is also available.  New bricks and high-quality work are available in the construction, in which you can connect directly with the Jagah Jameen or any other construction company.  The place easy slide gives you a lot of options where we can compare and book.
+                            Jagah Jameen There is no tampering with the personal data of any of its users.  Nor does it hold any other hidden terms of any kind.  In order to make the Jagah Jameen better in the future, a change in many terms and conditions and applications is scheduled.</string>
+
+    <string name="why_jj">Why Jagah Jameen</string>
+    <string name="why_jj_text">Vastu Shastra, civil engineer, electric engineer, architect, color psychology, investment advisor are also available in the jagah Jameen Application.
+                                Which is designed according to the citizens of India.  This application can be used even by a young or old person, so the entire application has been made based on the One Touch Book.  When you slide in the application, you can go to the four categories, as well as you can book the land or house by sliding up and down, on the same page you get all the information about the land.
+                                Customers direct can also message WhatsApp from the WhatsApp icon or there is also the option of direct call. All the land, house, or construction segments shown are already verified.
+                                In the premium application in which we do not charge any advertisement or any fees, then the jagah jameen application keeps a separate place in itself.  To create trust, the location, land, and all the documents of the house are uploaded by checking.  Here is the option to visit the land at our scheduled time,  and get satisfied after seeing the land, house.
+                                The right and good photos are from the same place that the customer could understand.</string>
+    <string name="Land">Plot</string>
+    <string name="Interior">Interior</string>
+    <string name="Houses">Houses</string>
+    <string name="Build">Items</string>
+    <string name="about_us">About Us</string>
+    <string name="Contact_Us">Contact Us</string>
+
+    <!--Tab name-->
+    <string name="tab_text_1">PLOTS</string>
+    <string name="tab_text_2">HOUSE</string>
+    <string name="tab_text_3">INTERIOR</string>
+    <string name="tab_text_4">ITEMS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!--button-->
+    <string name="call">Call</string>
+    <string name="sharebtn">Share</string>
+    <string name="retry">Retry</string>
+
+    <!--alert Dailog-->
+    <string name="leaving_soon">Leaving So Soon...!!</string>
+    <string name="login_at">You haven\'t Login at...??</string>
+    <string name="sure_exit">Are you sure you to Exit..</string>
+    <string name="exit">Exit</string>
+    <string name="login">Login</string>
+    <string name="stay">Stay</string>
+    <string name="welcome">Welcome in Jagah Jameen</string>
+
+
+    <!--OTP screen-->
+    <string name="otp_code_text">Co"\n"de</string>
+    <string name="resend">Don\'t Received The CODE</string>
+    <string name="Verify_Code">Verify Code</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password sent on your given \n Number</string>
+
+    <!--Phone password-->
+    <string name="phone">Phone</string>
+    <string name="otp">Get OTP</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="phone_desc">Enter your phone no by selecting your country code..</string>
+
+    <!--Profile-->
+    <string name="name">Name</string>
+    <string name="done">Done</string>
+    <string name="name_profile">Your name (for notifications)</string>
+    <string name="name_hint">Enter Your name and add an optional profile picture</string>
+
+
+    <!--internet-->
+    <string name="oops">OOPS !</string>
+    <string name="no_internet">No Internet Connection…</string>
+
+    <!--Contact Us-->
+    <string name="pname">Name</string>
+    <string name="email">Email</string>
+    <string name="wno">WhatsApp Number</string>
+    <string name="street">House No / Street</string>
+    <string name="address">Full Address</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="pincode">Pincode</string>
+    <string name="comment">Comments / Enquiry</string>
+    <string name="submit">Submit</string>
+
+
+    <!--About Us-->
+    <string name="version">Version 1.0.0</string>
+    <string name="advertise">Advertise with us</string>
+    <string name="connect">Connect with us</string>
+    <string name="gmail">Mail on Gmail</string>
+    <string name="link">Visit our Website</string>
+    <string name="facebook">Like us on Facebook</string>
+    <string name="twitter">Follow us on Twitter</string>
+    <string name="youtube">Watch us on Youtube</string>
+    <string name="playstore">Rate us on Play Store</string>
+    <string name="instagram">Follow us on Instagram</string>
+    <string name="whatsapp">Text us on WhatsApp</string>
+    <string name="github">Meet developer on GitHub</string>
+    <string name="copyright">Copyright © 2021, Jagah Jameen</string>
+
+</resources>
